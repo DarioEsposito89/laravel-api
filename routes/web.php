@@ -20,6 +20,8 @@ Route::get('/', function () {
     return redirect("http://localhost:5174/");
 });
 
+// Route::get('/', [GuestController::class, "index"])->name("guests.welcome");
+
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
