@@ -8,12 +8,6 @@
                 <h1 class="display-4 fw-bold text-center text-dark">
                     Hello, this is my Portfolio
                 </h1>
-        
-                <p class="fs-5 text-center lh-lg text-dark">Clicca e guarda tutti i miei progetti</p>
-                {{-- Bottone per vedere tutti i progetti in tabella --}}
-                <div class="mt-1 text-center">
-                    <a href="{{route("admin.projects.index")}}" class="btn btn-primary more-button">Watch my projects</a>
-                </div>
             </div>
             <div class="col-12 col-lg-6 text-center">
                 <img src="/img/right-side.svg" class="welcome-svg " alt="">             
