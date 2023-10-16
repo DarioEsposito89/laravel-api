@@ -15,10 +15,10 @@ class ProjectController extends Controller
      * 
      * @return View
      */
-    public  function index():View
-    {
-        $projects=Project::all();
+    // public  function index():View
+    // {
+    //     $projects=Project::all();
 
-        return view("guests.welcome", compact("projects"));
-    }
+    //     return view("guests.welcome", compact("projects"));
+    // }
 }
